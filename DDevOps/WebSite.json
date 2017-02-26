@@ -35,7 +35,7 @@
         "description": "Describes plan's instance count"
       }
     },
-    "sitename": {
+    "siteName": {
       "type": "string",
       "metadata": {
         "description": "Name of the Azure WebApp"
