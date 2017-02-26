@@ -161,7 +161,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\Script1.ps1" />
+    <Content Include="Scripts\unittestscript.ps1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
