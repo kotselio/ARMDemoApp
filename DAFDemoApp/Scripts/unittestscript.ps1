@@ -10,7 +10,7 @@ $ResourceGroup = "ddevops01"
 #Testing number of Resources within a RG
 $NumberOfResources = Find-AzureRmResource -ResourceGroupNameContains $ResourceGroup | Measure-Object
 ECHO "Number of Resources:" $NumberOfResources.Count
-$NumberOfResourcesCount = $NumberOfResources.Count -eq 9
+$NumberOfResourcesCount = $NumberOfResources.Count -eq 8
 ECHO "Test successful:" $NumberOfResourcesCount
 if ($NumberOfResourcesCount -like "false")
     {
